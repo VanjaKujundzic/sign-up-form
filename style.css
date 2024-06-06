@@ -1,7 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     display: flex;
     font-family: "Pridi", "Times New Roman", Georgia;
-    color: wheat;
+    color: rgb(77, 73, 73);
+    background-color: rgba(0, 0, 0, 0.04);
     margin: 0;
 }
 .background {
@@ -9,22 +15,56 @@ body{
     background-position: center;
     background-size: cover;
     height: 100vh;
+    color: wheat;
 
 }
 .logo{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 25vh;
     width: 40vw;
-    border: solid black 5px;
     font-size: 2rem;
+    background-color: rgba(0, 0, 0, 0.5);
     
 }
 
 img {
+    padding: 1rem;
+    padding-right: 0;
     height: auto;
-    width: 50px;
+    width: 100px;
+}
+.headings {
+    max-width: 50ch;
+    padding: 5rem;
+}
+.form-section {
+   
+    width: 100%;
+    margin: 0 auto; /* Center the form horizontally */
+}
+.form-container {
+    width: 100%;
+    background-color: white;
+    padding: 5rem;
+}
+
+.form-row {
+    display: flex;
+    gap: 40px;
     
     
+}
+.form-row p {
+   
+}
+fieldset {
+    border-style: none;
+}
+input {
+    border-radius: 4px;
+    border: solid rgba(185, 185, 185, 0.384) 1px;
+    height: 25px;
+    width: 200px;
 }

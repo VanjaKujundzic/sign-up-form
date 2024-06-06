@@ -16,11 +16,61 @@
             <span>Welcome</span>
         </div>
     </div>
-    <div>
-        <h2>This is not a real online service! 
-            This is only an exercise for creating sign up forms. 
-        </h2>
-        <p>testing out the branch feature</p>
+    <div class="form-section">
+        <div class="headings">
+            <h2>This is not a real online service! 
+                This is only an exercise for creating sign up forms. 
+            </h2>
+            <p>testing out the branch feature</p>
+        </div>
+        <div class="form-container">
+            <form action="#" method="get">
+                <fieldset class="inputs">
+                    <legend>Your information</legend>
+                    <div class="form-row">
+                        <p> 
+                            <label for="name">FIRST NAME:</label>
+                            <br>
+                            <input type="text" name="user_name" id="name" required>
+                        </p>
+            
+                        <p>
+                            <label for="lastname">LAST NAME:</label>
+                            <br>
+                            <input type="text" name="user_lastname" id="lastname" required>
+                        </p>
+                    </div>
+                    <div class="form-row">
+                        <p>
+                            <label for="email">*EMAIL:</label>
+                            <br>
+                            <input type="email" name="user_mail" id="email" required>
+                        </p>
+                        <p>
+                            <label for="number">PHONE NUMBER:</label>  
+                            <br>                     
+                            <input type="tel" name="user_num" id="number" minlength="9" placeholder="xxx-xxx-xxx">
+                        </p>
+                    </div>
+                    <div class="form-row">
+                        <p>
+                            <label for="password">*PASSWORD:</label>
+                            <br>
+                            <input type="password" name="user_pwd" id="password" minlength="4" maxlength="12" required>
+                        </p>
+                        <p>
+                            <label for="password">CONFIRM PASSWORD:</label>
+                            <br>
+                            <input type="password" name="user_pwd" id="password" minlength="4" maxlength="12" required>
+                        </p>
+                    </div>
+                
+                </fieldset>
+                
+            </form>
+        </div>
+        <button type="submit">Create account</button>
+        <span>Already have an account? <a href="#">Log in</a></span>
 
 
     </div>
