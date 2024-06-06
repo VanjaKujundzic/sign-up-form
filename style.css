@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    font-family: "Pridi", "Times New Roman", Georgia;
+    color: wheat;
+    margin: 0;
+}
+.background {
+    background-image: url(background-image.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    width: 40vw;
+    border: solid black 5px;
+    font-size: 2rem;
+    
+}
+
+img {
+    height: auto;
+    width: 50px;
+    
+    
+}
